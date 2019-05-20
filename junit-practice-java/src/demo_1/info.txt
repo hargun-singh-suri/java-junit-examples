@@ -1,0 +1,24 @@
+1: Unit Test means - Testing a method
+2: We have a method called printMessage which will print the message passed into constructor and
+also return the value which is passed
+3: We will create a class which will actually test if this method is working correctly ie
+return the data which is passed
+4: USING  org.junit.Assert.assertEquals for testing
+5: Create Test Runner Class
+	Create a TestRunner java class.
+	Use runClasses method of JUnitCore class of JUnit to run the test case of the above created test class.
+	Get the result of test cases run in Result Object.
+	Get failure(s) using the getFailures() method of Result object.
+	Get Success result using the wasSuccessful() method of Result object.
+	
+	
+6: Output from TestRunnerSunnyDay
+
+Hello World
+true
+
+7:  Output from TestRunnerRainyDay
+
+Hello World
+testPrintMessage(demo_1.TestMessageUtilRainyDay): expected:<[Tweaking The Value]> but was:<[Hello World]>
+false
