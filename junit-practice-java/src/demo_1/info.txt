@@ -1,3 +1,5 @@
+***********Simple JUNIT Example****************
+
 1: Unit Test means - Testing a method
 2: We have a method called printMessage which will print the message passed into constructor and
 also return the value which is passed

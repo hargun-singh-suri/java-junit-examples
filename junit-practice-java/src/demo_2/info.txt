@@ -1,0 +1,10 @@
+*******Junit Example using POJO and Service class**********
+
+#1: Create a POJO Class Employee
+#2: Create a EmployeeService interface
+#3: Create a EmployeeServiceImpl
+#4: Create a Test class TestEmployeeService to be able to test the methods of service class
+#5: Create a Test launcher class
+	Run class using JUnitCore
+	get result of fail result using  result.getFailures()
+	get result of successful using result.wasSuccessful()
